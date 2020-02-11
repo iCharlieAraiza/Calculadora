@@ -4,7 +4,11 @@ import java.util.Scanner;
 public class Calculadora {
     double numero;
 
-    public void setNumero( double numero){
+    public Calculadora(){
+        numero = 0;
+    }
+
+    public void setNumero(double numero){
         this.numero = numero;
     }
 

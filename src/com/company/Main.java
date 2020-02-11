@@ -6,16 +6,14 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        boolean s = true, op_c = false;
+        boolean s = true;
         String num, op;
-        char opc;
-        double r;
 
 
         Calculadora Cal = new Calculadora();
         Scanner Input = new Scanner( System.in );
 
-        System.out.println("Instrucciones.\nPara salir del programa, solo debes agregar la letra 's' en el campo de 'Operador' ");
+        System.out.println("Instrucciones:\nPara salir del programa, solo debes poner la letra 's' en el campo de 'Operador' ");
         System.out.println("*************************************************************************************************");
 
         System.out.print("Número: ");
